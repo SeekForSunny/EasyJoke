@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SMARTCheckViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qvH-vX-ZOo">
+                    <rect key="frame" x="5" y="30" width="365" height="161"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="老和尚问小和尚：“如果你前进一步是死，后退一步则亡，你该怎么办？”小和尚毫不犹豫地说：“我往旁边去。”天无绝人之路，人生路上遭遇进退两难的境况时，换个角度思考，也许就会明白：路的旁边还是路。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ru-Fx-pW4">
+                            <rect key="frame" x="5" y="10" width="355" height="101.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XlJ-QC-Hjq">
+                            <rect key="frame" x="5" y="121" width="46" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="jxg-RP-21q"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="举报" backgroundImage="dig_bg_disable_night">
+                                <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.93574416039999997" green="0.89765135350000003" blue="0.73435995249999997" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="3ru-Fx-pW4" secondAttribute="trailing" constant="5" id="3Jv-mq-dK9"/>
+                        <constraint firstItem="3ru-Fx-pW4" firstAttribute="top" secondItem="qvH-vX-ZOo" secondAttribute="top" constant="10" id="3P8-V8-aUj"/>
+                        <constraint firstItem="3ru-Fx-pW4" firstAttribute="leading" secondItem="qvH-vX-ZOo" secondAttribute="leading" constant="5" id="5Nk-EW-6Xi"/>
+                        <constraint firstItem="XlJ-QC-Hjq" firstAttribute="top" secondItem="3ru-Fx-pW4" secondAttribute="bottom" constant="10" id="LXF-2E-koU"/>
+                        <constraint firstAttribute="bottom" secondItem="XlJ-QC-Hjq" secondAttribute="bottom" constant="10" id="aVt-nS-4F1"/>
+                        <constraint firstItem="XlJ-QC-Hjq" firstAttribute="leading" secondItem="qvH-vX-ZOo" secondAttribute="leading" constant="5" id="iHp-2Q-dGf"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DrE-dD-tN3">
+                    <rect key="frame" x="287" y="211" width="80" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="PZJ-Hn-87c"/>
+                        <constraint firstAttribute="width" constant="80" id="wIe-4O-V8k"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="digdownicon_review_press"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UeZ-RM-4Wy">
+                    <rect key="frame" x="10" y="211" width="80" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="2br-Kg-7Ih"/>
+                        <constraint firstAttribute="width" constant="80" id="Fj1-6P-b7r"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="digupicon_review_press"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="DrE-dD-tN3" secondAttribute="trailing" constant="8" id="9Jy-Td-nvx"/>
+                <constraint firstItem="DrE-dD-tN3" firstAttribute="top" secondItem="qvH-vX-ZOo" secondAttribute="bottom" constant="20" id="JM1-Ec-PCF"/>
+                <constraint firstItem="qvH-vX-ZOo" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="5" id="M7v-zL-a9H"/>
+                <constraint firstItem="UeZ-RM-4Wy" firstAttribute="top" secondItem="qvH-vX-ZOo" secondAttribute="bottom" constant="20" id="XOY-Lu-nPs"/>
+                <constraint firstAttribute="trailing" secondItem="qvH-vX-ZOo" secondAttribute="trailing" constant="5" id="baQ-lQ-fWb"/>
+                <constraint firstItem="UeZ-RM-4Wy" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="i5o-SB-g3u"/>
+                <constraint firstItem="qvH-vX-ZOo" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="30" id="mXO-bC-ewO"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="216.5" y="249.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="dig_bg_disable_night" width="46" height="31"/>
+        <image name="digdownicon_review_press" width="110" height="108"/>
+        <image name="digupicon_review_press" width="110" height="109"/>
+    </resources>
+</document>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SMARTSetUpController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="Iyc-jh-uH1"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DLK-B6-BJ7" userLabel="底部View">
+                    <rect key="frame" x="0.0" y="618" width="375" height="49"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="isy-c9-RJw">
+                            <rect key="frame" x="0.0" y="0.0" width="187.5" height="49"/>
+                            <state key="normal" title="推荐给朋友">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sJk-cV-she">
+                            <rect key="frame" x="187" y="0.0" width="187.5" height="49"/>
+                            <state key="normal" title="用户反馈">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="titlebarbg" translatesAutoresizingMaskIntoConstraints="NO" id="hZs-Kg-J5l">
+                            <rect key="frame" x="187.5" y="0.0" width="1" height="49"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="1" id="ntH-x7-ese"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.7843137255" green="0.7843137255" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="isy-c9-RJw" firstAttribute="leading" secondItem="DLK-B6-BJ7" secondAttribute="leading" id="2vS-dl-NLU"/>
+                        <constraint firstAttribute="bottom" secondItem="sJk-cV-she" secondAttribute="bottom" id="7V4-Xx-Rwj"/>
+                        <constraint firstItem="isy-c9-RJw" firstAttribute="width" secondItem="sJk-cV-she" secondAttribute="width" id="8Uv-4h-oW0"/>
+                        <constraint firstItem="sJk-cV-she" firstAttribute="leading" secondItem="isy-c9-RJw" secondAttribute="trailing" id="VH2-k3-YjV"/>
+                        <constraint firstAttribute="height" constant="49" id="euz-du-eX2"/>
+                        <constraint firstAttribute="bottom" secondItem="hZs-Kg-J5l" secondAttribute="bottom" id="hHr-tw-hz3"/>
+                        <constraint firstAttribute="trailing" secondItem="sJk-cV-she" secondAttribute="trailing" id="lSK-jn-1gi"/>
+                        <constraint firstItem="hZs-Kg-J5l" firstAttribute="leading" secondItem="isy-c9-RJw" secondAttribute="trailing" id="lyT-1k-UM9"/>
+                        <constraint firstItem="hZs-Kg-J5l" firstAttribute="top" secondItem="DLK-B6-BJ7" secondAttribute="top" id="ntd-hm-u11"/>
+                        <constraint firstItem="isy-c9-RJw" firstAttribute="top" secondItem="DLK-B6-BJ7" secondAttribute="top" id="q1W-k6-vr5"/>
+                        <constraint firstItem="sJk-cV-she" firstAttribute="top" secondItem="DLK-B6-BJ7" secondAttribute="top" id="qXk-mb-IaY"/>
+                        <constraint firstAttribute="bottom" secondItem="isy-c9-RJw" secondAttribute="bottom" id="z1g-dV-ytj"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="DLK-B6-BJ7" secondAttribute="trailing" id="5ON-F9-286"/>
+                <constraint firstAttribute="bottom" secondItem="DLK-B6-BJ7" secondAttribute="bottom" id="G5a-iA-eov"/>
+                <constraint firstItem="DLK-B6-BJ7" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="t9n-2Q-Yf0"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="titlebarbg" width="1" height="44"/>
+    </resources>
+</document>

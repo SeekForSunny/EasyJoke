@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SMARTQuicklyLoginController">
+            <connections>
+                <outlet property="agree_btn" destination="UHl-Xs-KqD" id="peA-wX-nJ5"/>
+                <outlet property="view" destination="iN0-l3-epB" id="WEN-HN-qqf"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rJs-r9-J5H" userLabel="ContentView">
+                    <rect key="frame" x="0.0" y="233" width="375" height="200"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iro-uj-pbk" customClass="SMARTLoginButton">
+                            <rect key="frame" x="0.0" y="0.0" width="125" height="70"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <state key="normal" title="微信" image="weixin"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ote-At-7rL" customClass="SMARTLoginButton">
+                            <rect key="frame" x="125" y="0.0" width="125" height="70"/>
+                            <state key="normal" title="腾讯QQ" image="QQ"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bu8-BZ-WEN" customClass="SMARTLoginButton">
+                            <rect key="frame" x="250" y="0.0" width="125" height="70"/>
+                            <state key="normal" title="新浪微博" image="sina"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wp5-9p-sL8" customClass="SMARTLoginButton">
+                            <rect key="frame" x="0.0" y="110" width="125" height="70"/>
+                            <state key="normal" title="腾讯微博" image="tencent"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yHb-Pw-kmb" customClass="SMARTLoginButton">
+                            <rect key="frame" x="250" y="110" width="125" height="70"/>
+                            <state key="normal" title="开心网" image="kaixin"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SUO-PY-IwS" customClass="SMARTLoginButton">
+                            <rect key="frame" x="125" y="110" width="125" height="70"/>
+                            <state key="normal" title="人人网" image="renren"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="Ote-At-7rL" firstAttribute="leading" secondItem="iro-uj-pbk" secondAttribute="trailing" id="1qa-8S-Szg"/>
+                        <constraint firstAttribute="trailing" secondItem="Bu8-BZ-WEN" secondAttribute="trailing" id="4GF-sb-QGI"/>
+                        <constraint firstItem="Ote-At-7rL" firstAttribute="width" secondItem="iro-uj-pbk" secondAttribute="width" id="5Mc-yk-a4E"/>
+                        <constraint firstItem="iro-uj-pbk" firstAttribute="top" secondItem="rJs-r9-J5H" secondAttribute="top" id="CwE-VB-k9f"/>
+                        <constraint firstItem="Bu8-BZ-WEN" firstAttribute="leading" secondItem="Ote-At-7rL" secondAttribute="trailing" id="Kh5-c3-d5y"/>
+                        <constraint firstItem="yHb-Pw-kmb" firstAttribute="leading" secondItem="SUO-PY-IwS" secondAttribute="trailing" id="LsT-CX-tH3"/>
+                        <constraint firstItem="SUO-PY-IwS" firstAttribute="width" secondItem="wp5-9p-sL8" secondAttribute="width" id="Tpk-Ji-0Uf"/>
+                        <constraint firstAttribute="bottom" secondItem="SUO-PY-IwS" secondAttribute="bottom" constant="20" id="VOb-Ku-uZr"/>
+                        <constraint firstItem="Bu8-BZ-WEN" firstAttribute="top" secondItem="rJs-r9-J5H" secondAttribute="top" id="YlD-kW-3b3"/>
+                        <constraint firstItem="Bu8-BZ-WEN" firstAttribute="width" secondItem="iro-uj-pbk" secondAttribute="width" id="aYH-90-4s3"/>
+                        <constraint firstAttribute="bottom" secondItem="yHb-Pw-kmb" secondAttribute="bottom" constant="20" id="brz-Ip-bwW"/>
+                        <constraint firstItem="yHb-Pw-kmb" firstAttribute="width" secondItem="wp5-9p-sL8" secondAttribute="width" id="g61-ME-1ZI"/>
+                        <constraint firstItem="iro-uj-pbk" firstAttribute="leading" secondItem="rJs-r9-J5H" secondAttribute="leading" id="hWU-dY-gJL"/>
+                        <constraint firstAttribute="bottom" secondItem="wp5-9p-sL8" secondAttribute="bottom" constant="20" id="l4D-78-UDf"/>
+                        <constraint firstAttribute="height" constant="200" id="oW7-1u-Ia1"/>
+                        <constraint firstItem="Ote-At-7rL" firstAttribute="top" secondItem="rJs-r9-J5H" secondAttribute="top" id="omk-kM-Kp2"/>
+                        <constraint firstItem="SUO-PY-IwS" firstAttribute="leading" secondItem="wp5-9p-sL8" secondAttribute="trailing" id="rdy-Aj-GhT"/>
+                        <constraint firstItem="wp5-9p-sL8" firstAttribute="leading" secondItem="rJs-r9-J5H" secondAttribute="leading" id="tx2-dD-5aH"/>
+                        <constraint firstAttribute="trailing" secondItem="yHb-Pw-kmb" secondAttribute="trailing" id="ulX-9k-5Fl"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UHl-Xs-KqD">
+                    <rect key="frame" x="0.0" y="453" width="375" height="14"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="5" maxY="0.0"/>
+                    <state key="normal" title="我同意《内涵段子用户使用协议》" image="hookicon_login_press">
+                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted" image="hookicon_login"/>
+                    <connections>
+                        <action selector="agree:" destination="-1" eventType="touchUpInside" id="iCJ-ju-hfw"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="UHl-Xs-KqD" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="1DJ-cV-AWD"/>
+                <constraint firstAttribute="trailing" secondItem="rJs-r9-J5H" secondAttribute="trailing" id="2Tq-fz-yMM"/>
+                <constraint firstItem="UHl-Xs-KqD" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="6AA-TO-sXS"/>
+                <constraint firstAttribute="trailing" secondItem="UHl-Xs-KqD" secondAttribute="trailing" id="6te-PK-AfA"/>
+                <constraint firstItem="rJs-r9-J5H" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="B7a-Q0-tUV"/>
+                <constraint firstItem="UHl-Xs-KqD" firstAttribute="top" secondItem="rJs-r9-J5H" secondAttribute="bottom" constant="20" id="DsD-c2-lGj"/>
+                <constraint firstItem="rJs-r9-J5H" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="fjV-im-hCn"/>
+                <constraint firstItem="rJs-r9-J5H" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="qJl-86-y97"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="QQ" width="70" height="70"/>
+        <image name="hookicon_login" width="14" height="14"/>
+        <image name="hookicon_login_press" width="14" height="14"/>
+        <image name="kaixin" width="70" height="70"/>
+        <image name="renren" width="70" height="70"/>
+        <image name="sina" width="70" height="70"/>
+        <image name="tencent" width="70" height="70"/>
+        <image name="weixin" width="70" height="70"/>
+    </resources>
+</document>

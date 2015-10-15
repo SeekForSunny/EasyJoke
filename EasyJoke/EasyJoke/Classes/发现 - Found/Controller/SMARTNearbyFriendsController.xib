@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SMARTNearbyFriendsController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="find" translatesAutoresizingMaskIntoConstraints="NO" id="NVI-jh-Lqg">
+                    <rect key="frame" x="53" y="60" width="260" height="260"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="260" id="OBc-TE-3JE"/>
+                        <constraint firstAttribute="width" constant="260" id="h2F-JL-sjv"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wiZ-p5-yPK">
+                    <rect key="frame" x="67" y="370.5" width="240" height="40"/>
+                    <color key="backgroundColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="UPv-Hc-L6N"/>
+                        <constraint firstAttribute="width" constant="240" id="wyR-Tr-Mqu"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="登陆传送门">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="quicklyLogin" destination="-1" eventType="touchUpInside" id="KPb-wx-diV"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="想看附近的段友就得拿出诚意来！" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u03-pU-4Kq">
+                    <rect key="frame" x="90" y="320" width="195" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="快去登陆告诉哥你是何方神圣?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nIb-yJ-Rk6">
+                    <rect key="frame" x="102" y="346" width="163" height="14.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="wiZ-p5-yPK" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="3uA-fU-QVk"/>
+                <constraint firstItem="NVI-jh-Lqg" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" constant="-4.5" id="95Z-d3-RMO"/>
+                <constraint firstItem="NVI-jh-Lqg" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="60" id="9xz-M8-9bi"/>
+                <constraint firstItem="nIb-yJ-Rk6" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" constant="-4" id="GIW-c5-qhN"/>
+                <constraint firstItem="nIb-yJ-Rk6" firstAttribute="height" secondItem="u03-pU-4Kq" secondAttribute="height" id="LZE-cY-sH6"/>
+                <constraint firstItem="wiZ-p5-yPK" firstAttribute="height" secondItem="u03-pU-4Kq" secondAttribute="height" id="MaH-60-ear"/>
+                <constraint firstItem="nIb-yJ-Rk6" firstAttribute="top" secondItem="u03-pU-4Kq" secondAttribute="bottom" constant="10" id="onR-c2-BH9"/>
+                <constraint firstItem="u03-pU-4Kq" firstAttribute="top" secondItem="NVI-jh-Lqg" secondAttribute="bottom" id="rIA-ZY-MzN"/>
+                <constraint firstItem="wiZ-p5-yPK" firstAttribute="top" secondItem="nIb-yJ-Rk6" secondAttribute="bottom" constant="10" id="v37-AO-fTM"/>
+                <constraint firstItem="u03-pU-4Kq" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="vDf-9C-cRR"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="LZE-cY-sH6"/>
+                    <exclude reference="MaH-60-ear"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="274.5" y="250.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="find" width="302" height="300"/>
+    </resources>
+</document>

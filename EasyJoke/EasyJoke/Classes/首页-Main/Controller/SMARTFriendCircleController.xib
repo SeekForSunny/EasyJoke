@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SMARTFriendCircleController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="搞笑逗比私人定制" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ydz-b5-omX">
+                    <rect key="frame" x="0.0" y="272.5" width="375" height="14.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="登录账户关注你喜欢的TA" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JcM-Ac-fGt">
+                    <rect key="frame" x="0.0" y="297" width="375" height="12"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xKr-s6-vbf">
+                    <rect key="frame" x="87.5" y="319" width="200" height="30"/>
+                    <color key="backgroundColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="2g5-We-ec4"/>
+                        <constraint firstAttribute="width" constant="200" id="3mw-EN-87U"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="登陆传送门"/>
+                    <connections>
+                        <action selector="login" destination="-1" eventType="touchUpInside" id="eQv-Tx-pX5"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="like_attention" translatesAutoresizingMaskIntoConstraints="NO" id="Ts0-T2-cOG">
+                    <rect key="frame" x="153" y="184.5" width="68" height="68"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="68" id="1en-tH-5CZ"/>
+                        <constraint firstAttribute="height" constant="68" id="RjO-az-wWF"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="xKr-s6-vbf" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="5HI-Rm-mkA"/>
+                <constraint firstItem="Ydz-b5-omX" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="9OO-b0-eQR"/>
+                <constraint firstItem="JcM-Ac-fGt" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="NCe-6d-WeQ"/>
+                <constraint firstItem="Ydz-b5-omX" firstAttribute="top" secondItem="Ts0-T2-cOG" secondAttribute="bottom" constant="20" id="Xwi-au-x74"/>
+                <constraint firstItem="xKr-s6-vbf" firstAttribute="top" secondItem="JcM-Ac-fGt" secondAttribute="bottom" constant="10" id="YYQ-0R-eos"/>
+                <constraint firstItem="JcM-Ac-fGt" firstAttribute="top" secondItem="Ydz-b5-omX" secondAttribute="bottom" constant="10" id="cCR-dP-T0L"/>
+                <constraint firstAttribute="trailing" secondItem="Ydz-b5-omX" secondAttribute="trailing" id="jvB-7g-l7H"/>
+                <constraint firstAttribute="trailing" secondItem="JcM-Ac-fGt" secondAttribute="trailing" id="m0C-4z-Igj"/>
+                <constraint firstItem="Ts0-T2-cOG" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="rj2-eJ-NGG"/>
+                <constraint firstItem="xKr-s6-vbf" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="usX-k0-0sx"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="287.5" y="260.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="like_attention" width="72" height="72"/>
+    </resources>
+</document>

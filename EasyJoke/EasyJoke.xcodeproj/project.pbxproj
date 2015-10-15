@@ -1,0 +1,1142 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A2490131BCFF442004162E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A248F771BCFF442004162E1 /* AppDelegate.m */; };
+		2A2490141BCFF442004162E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A248F781BCFF442004162E1 /* main.m */; };
+		2A2490151BCFF442004162E1 /* MJExtensionConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A248F7A1BCFF442004162E1 /* MJExtensionConfig.m */; };
+		2A2490161BCFF442004162E1 /* SMARTConstList.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A248F7D1BCFF442004162E1 /* SMARTConstList.m */; };
+		2A2490171BCFF442004162E1 /* UIBarButtonItem+SMARTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A248F801BCFF442004162E1 /* UIBarButtonItem+SMARTExtension.m */; };
+		2A2490181BCFF442004162E1 /* UIImageView+SMARTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A248F831BCFF442004162E1 /* UIImageView+SMARTExtension.m */; };
+		2A2490191BCFF442004162E1 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A248F871BCFF442004162E1 /* UIImage+Image.m */; };
+		2A24901A1BCFF442004162E1 /* UIView+SMARTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A248F891BCFF442004162E1 /* UIView+SMARTExtension.m */; };
+		2A24901B1BCFF442004162E1 /* SMARTFindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A248F8D1BCFF442004162E1 /* SMARTFindViewController.m */; };
+		2A24901C1BCFF442004162E1 /* SMARTHotBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A248F8F1BCFF442004162E1 /* SMARTHotBarController.m */; };
+		2A24901D1BCFF442004162E1 /* SMARTNearbyFriendsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A248F911BCFF442004162E1 /* SMARTNearbyFriendsController.m */; };
+		2A24901E1BCFF442004162E1 /* SMARTNearbyFriendsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A248F921BCFF442004162E1 /* SMARTNearbyFriendsController.xib */; };
+		2A24901F1BCFF442004162E1 /* SMARTNavagationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A248F981BCFF442004162E1 /* SMARTNavagationViewController.m */; };
+		2A2490201BCFF442004162E1 /* SMARTTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A248F9A1BCFF442004162E1 /* SMARTTabBarController.m */; };
+		2A2490211BCFF442004162E1 /* SMARTCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A248FA01BCFF442004162E1 /* SMARTCheckViewController.m */; };
+		2A2490221BCFF442004162E1 /* SMARTCheckViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A248FA11BCFF442004162E1 /* SMARTCheckViewController.xib */; };
+		2A2490231BCFF442004162E1 /* SMARTNewFeatureController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A248FA71BCFF442004162E1 /* SMARTNewFeatureController.m */; };
+		2A2490241BCFF442004162E1 /* SMARTRootTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A248FAC1BCFF442004162E1 /* SMARTRootTool.m */; };
+		2A2490251BCFF442004162E1 /* SMARTSaveTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A248FAF1BCFF442004162E1 /* SMARTSaveTool.m */; };
+		2A2490261BCFF442004162E1 /* SMARTNewfFeatureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A248FB21BCFF442004162E1 /* SMARTNewfFeatureCell.m */; };
+		2A2490271BCFF442004162E1 /* SMARTMassageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A248FB61BCFF442004162E1 /* SMARTMassageViewController.m */; };
+		2A2490281BCFF442004162E1 /* SMARTMassageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A248FB71BCFF442004162E1 /* SMARTMassageViewController.xib */; };
+		2A2490291BCFF442004162E1 /* SMARTLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A248FBD1BCFF442004162E1 /* SMARTLoginViewController.m */; };
+		2A24902A1BCFF442004162E1 /* SMARTLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A248FBE1BCFF442004162E1 /* SMARTLoginViewController.xib */; };
+		2A24902B1BCFF442004162E1 /* SMARTProtocolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A248FC01BCFF442004162E1 /* SMARTProtocolViewController.m */; };
+		2A24902C1BCFF442004162E1 /* SMARTProtocolViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A248FC11BCFF442004162E1 /* SMARTProtocolViewController.xib */; };
+		2A24902D1BCFF442004162E1 /* SMARTQuicklyLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A248FC51BCFF442004162E1 /* SMARTQuicklyLoginController.m */; };
+		2A24902E1BCFF442004162E1 /* SMARTQuicklyLoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A248FC61BCFF442004162E1 /* SMARTQuicklyLoginController.xib */; };
+		2A24902F1BCFF442004162E1 /* SMARTLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A248FCA1BCFF442004162E1 /* SMARTLoginButton.m */; };
+		2A2490301BCFF442004162E1 /* SMARTSetUpController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A248FCE1BCFF442004162E1 /* SMARTSetUpController.m */; };
+		2A2490311BCFF442004162E1 /* SMARTSetUpController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A248FCF1BCFF442004162E1 /* SMARTSetUpController.xib */; };
+		2A2490321BCFF442004162E1 /* SMARTBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A248FD51BCFF442004162E1 /* SMARTBaseTableViewController.m */; };
+		2A2490331BCFF442004162E1 /* SMARTCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A248FD71BCFF442004162E1 /* SMARTCommentViewController.m */; };
+		2A2490341BCFF442004162E1 /* SMARTEssenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A248FD91BCFF442004162E1 /* SMARTEssenceController.m */; };
+		2A2490351BCFF442004162E1 /* SMARTEssenceController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A248FDA1BCFF442004162E1 /* SMARTEssenceController.xib */; };
+		2A2490361BCFF442004162E1 /* SMARTFriendCircleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A248FDC1BCFF442004162E1 /* SMARTFriendCircleController.m */; };
+		2A2490371BCFF442004162E1 /* SMARTFriendCircleController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A248FDD1BCFF442004162E1 /* SMARTFriendCircleController.xib */; };
+		2A2490381BCFF442004162E1 /* SMARTMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A248FDF1BCFF442004162E1 /* SMARTMainViewController.m */; };
+		2A2490391BCFF442004162E1 /* SMARTPictureController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A248FE11BCFF442004162E1 /* SMARTPictureController.m */; };
+		2A24903A1BCFF442004162E1 /* SMARTRecommentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A248FE31BCFF442004162E1 /* SMARTRecommentController.m */; };
+		2A24903B1BCFF442004162E1 /* SMARTSameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A248FE51BCFF442004162E1 /* SMARTSameController.m */; };
+		2A24903C1BCFF442004162E1 /* SMARTSameController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A248FE61BCFF442004162E1 /* SMARTSameController.xib */; };
+		2A24903D1BCFF442004162E1 /* SMARTSubscribeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A248FE81BCFF442004162E1 /* SMARTSubscribeController.m */; };
+		2A24903E1BCFF442004162E1 /* SMARTSubscribeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A248FE91BCFF442004162E1 /* SMARTSubscribeController.xib */; };
+		2A24903F1BCFF442004162E1 /* SMARTVideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A248FEB1BCFF442004162E1 /* SMARTVideoController.m */; };
+		2A2490401BCFF442004162E1 /* SMARTWordController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A248FED1BCFF442004162E1 /* SMARTWordController.m */; };
+		2A2490411BCFF442004162E1 /* SMARTCommentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A248FF01BCFF442004162E1 /* SMARTCommentModel.m */; };
+		2A2490421BCFF442004162E1 /* SMARTGroupModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A248FF21BCFF442004162E1 /* SMARTGroupModel.m */; };
+		2A2490431BCFF442004162E1 /* SMARTGroupUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A248FF41BCFF442004162E1 /* SMARTGroupUser.m */; };
+		2A2490441BCFF442004162E1 /* SMARTLargeImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A248FF61BCFF442004162E1 /* SMARTLargeImage.m */; };
+		2A2490451BCFF442004162E1 /* SMARTMiddleImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A248FF81BCFF442004162E1 /* SMARTMiddleImage.m */; };
+		2A2490461BCFF442004162E1 /* SMARTNavBarTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A248FFA1BCFF442004162E1 /* SMARTNavBarTitleView.m */; };
+		2A2490471BCFF442004162E1 /* SMARTTopicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A248FFC1BCFF442004162E1 /* SMARTTopicModel.m */; };
+		2A2490481BCFF442004162E1 /* SMARTCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A248FFF1BCFF442004162E1 /* SMARTCommentCell.m */; };
+		2A2490491BCFF442004162E1 /* SMARTCommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A2490001BCFF442004162E1 /* SMARTCommentCell.xib */; };
+		2A24904A1BCFF442004162E1 /* SMARTCommentCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2490021BCFF442004162E1 /* SMARTCommentCollectionViewCell.m */; };
+		2A24904B1BCFF442004162E1 /* SMARTCommentCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A2490031BCFF442004162E1 /* SMARTCommentCollectionViewCell.xib */; };
+		2A24904C1BCFF442004162E1 /* SMARTHotCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2490051BCFF442004162E1 /* SMARTHotCommentCell.m */; };
+		2A24904D1BCFF442004162E1 /* SMARTHotCommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A2490061BCFF442004162E1 /* SMARTHotCommentCell.xib */; };
+		2A24904E1BCFF442004162E1 /* SMARTPicturePartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2490081BCFF442004162E1 /* SMARTPicturePartView.m */; };
+		2A24904F1BCFF442004162E1 /* SMARTPicturePartView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A2490091BCFF442004162E1 /* SMARTPicturePartView.xib */; };
+		2A2490501BCFF442004162E1 /* SMARTTopicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A24900B1BCFF442004162E1 /* SMARTTopicCell.m */; };
+		2A2490511BCFF442004162E1 /* SMARTTopicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A24900C1BCFF442004162E1 /* SMARTTopicCell.xib */; };
+		2A2490521BCFF442004162E1 /* SMARTVideoPartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A24900E1BCFF442004162E1 /* SMARTVideoPartView.m */; };
+		2A2490531BCFF442004162E1 /* SMARTVideoPartView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A24900F1BCFF442004162E1 /* SMARTVideoPartView.xib */; };
+		2A2490541BCFF442004162E1 /* hotPage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2A2490101BCFF442004162E1 /* hotPage.bundle */; };
+		2A2490551BCFF442004162E1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A2490111BCFF442004162E1 /* Images.xcassets */; };
+		2A2490561BCFF442004162E1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A2490121BCFF442004162E1 /* Info.plist */; };
+		8A0E36B8FA9D80B6BA3D1761 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F96B282A1ABDD6D2FCAD289 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2ADEA7BA1BAD6EE700760496 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2ADEA7981BAD6EE700760496 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2ADEA79F1BAD6EE700760496;
+			remoteInfo = Essay.Joke;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A248F761BCFF442004162E1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2A248F771BCFF442004162E1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2A248F781BCFF442004162E1 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A248F791BCFF442004162E1 /* MJExtensionConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConfig.h; sourceTree = "<group>"; };
+		2A248F7A1BCFF442004162E1 /* MJExtensionConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConfig.m; sourceTree = "<group>"; };
+		2A248F7B1BCFF442004162E1 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2A248F7C1BCFF442004162E1 /* SMARTConstList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMARTConstList.h; sourceTree = "<group>"; };
+		2A248F7D1BCFF442004162E1 /* SMARTConstList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMARTConstList.m; sourceTree = "<group>"; };
+		2A248F7F1BCFF442004162E1 /* UIBarButtonItem+SMARTExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+SMARTExtension.h"; sourceTree = "<group>"; };
+		2A248F801BCFF442004162E1 /* UIBarButtonItem+SMARTExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+SMARTExtension.m"; sourceTree = "<group>"; };
+		2A248F821BCFF442004162E1 /* UIImageView+SMARTExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SMARTExtension.h"; sourceTree = "<group>"; };
+		2A248F831BCFF442004162E1 /* UIImageView+SMARTExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SMARTExtension.m"; sourceTree = "<group>"; };
+		2A248F861BCFF442004162E1 /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		2A248F871BCFF442004162E1 /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
+		2A248F881BCFF442004162E1 /* UIView+SMARTExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SMARTExtension.h"; sourceTree = "<group>"; };
+		2A248F891BCFF442004162E1 /* UIView+SMARTExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SMARTExtension.m"; sourceTree = "<group>"; };
+		2A248F8C1BCFF442004162E1 /* SMARTFindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMARTFindViewController.h; sourceTree = "<group>"; };
+		2A248F8D1BCFF442004162E1 /* SMARTFindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMARTFindViewController.m; sourceTree = "<group>"; };
+		2A248F8E1BCFF442004162E1 /* SMARTHotBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMARTHotBarController.h; sourceTree = "<group>"; };
+		2A248F8F1BCFF442004162E1 /* SMARTHotBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMARTHotBarController.m; sourceTree = "<group>"; };
+		2A248F901BCFF442004162E1 /* SMARTNearbyFriendsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMARTNearbyFriendsController.h; sourceTree = "<group>"; };
+		2A248F911BCFF442004162E1 /* SMARTNearbyFriendsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMARTNearbyFriendsController.m; sourceTree = "<group>"; };
+		2A248F921BCFF442004162E1 /* SMARTNearbyFriendsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMARTNearbyFriendsController.xib; sourceTree = "<group>"; };
+		2A248F971BCFF442004162E1 /* SMARTNavagationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMARTNavagationViewController.h; sourceTree = "<group>"; };
+		2A248F981BCFF442004162E1 /* SMARTNavagationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMARTNavagationViewController.m; sourceTree = "<group>"; };
+		2A248F991BCFF442004162E1 /* SMARTTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMARTTabBarController.h; sourceTree = "<group>"; };
+		2A248F9A1BCFF442004162E1 /* SMARTTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMARTTabBarController.m; sourceTree = "<group>"; };
+		2A248F9F1BCFF442004162E1 /* SMARTCheckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMARTCheckViewController.h; sourceTree = "<group>"; };
+		2A248FA01BCFF442004162E1 /* SMARTCheckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMARTCheckViewController.m; sourceTree = "<group>"; };
+		2A248FA11BCFF442004162E1 /* SMARTCheckViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMARTCheckViewController.xib; sourceTree = "<group>"; };
+		2A248FA61BCFF442004162E1 /* SMARTNewFeatureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMARTNewFeatureController.h; sourceTree = "<group>"; };
+		2A248FA71BCFF442004162E1 /* SMARTNewFeatureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMARTNewFeatureController.m; sourceTree = "<group>"; };
+		2A248FAB1BCFF442004162E1 /* SMARTRootTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMARTRootTool.h; sourceTree = "<group>"; };
+		2A248FAC1BCFF442004162E1 /* SMARTRootTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMARTRootTool.m; sourceTree = "<group>"; };
+		2A248FAE1BCFF442004162E1 /* SMARTSaveTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMARTSaveTool.h; sourceTree = "<group>"; };
+		2A248FAF1BCFF442004162E1 /* SMARTSaveTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMARTSaveTool.m; sourceTree = "<group>"; };
+		2A248FB11BCFF442004162E1 /* SMARTNewfFeatureCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMARTNewfFeatureCell.h; sourceTree = "<group>"; };
+		2A248FB21BCFF442004162E1 /* SMARTNewfFeatureCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMARTNewfFeatureCell.m; sourceTree = "<group>"; };
+		2A248FB51BCFF442004162E1 /* SMARTMassageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMARTMassageViewController.h; sourceTree = "<group>"; };
+		2A248FB61BCFF442004162E1 /* SMARTMassageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMARTMassageViewController.m; sourceTree = "<group>"; };
+		2A248FB71BCFF442004162E1 /* SMARTMassageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMARTMassageViewController.xib; sourceTree = "<group>"; };
+		2A248FBC1BCFF442004162E1 /* SMARTLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMARTLoginViewController.h; sourceTree = "<group>"; };
+		2A248FBD1BCFF442004162E1 /* SMARTLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMARTLoginViewController.m; sourceTree = "<group>"; };
+		2A248FBE1BCFF442004162E1 /* SMARTLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMARTLoginViewController.xib; sourceTree = "<group>"; };
+		2A248FBF1BCFF442004162E1 /* SMARTProtocolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMARTProtocolViewController.h; sourceTree = "<group>"; };
+		2A248FC01BCFF442004162E1 /* SMARTProtocolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMARTProtocolViewController.m; sourceTree = "<group>"; };
+		2A248FC11BCFF442004162E1 /* SMARTProtocolViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMARTProtocolViewController.xib; sourceTree = "<group>"; };
+		2A248FC41BCFF442004162E1 /* SMARTQuicklyLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMARTQuicklyLoginController.h; sourceTree = "<group>"; };
+		2A248FC51BCFF442004162E1 /* SMARTQuicklyLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMARTQuicklyLoginController.m; sourceTree = "<group>"; };
+		2A248FC61BCFF442004162E1 /* SMARTQuicklyLoginController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMARTQuicklyLoginController.xib; sourceTree = "<group>"; };
+		2A248FC91BCFF442004162E1 /* SMARTLoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMARTLoginButton.h; sourceTree = "<group>"; };
+		2A248FCA1BCFF442004162E1 /* SMARTLoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMARTLoginButton.m; sourceTree = "<group>"; };
+		2A248FCD1BCFF442004162E1 /* SMARTSetUpController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMARTSetUpController.h; sourceTree = "<group>"; };
+		2A248FCE1BCFF442004162E1 /* SMARTSetUpController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMARTSetUpController.m; sourceTree = "<group>"; };
+		2A248FCF1BCFF442004162E1 /* SMARTSetUpController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMARTSetUpController.xib; sourceTree = "<group>"; };
+		2A248FD41BCFF442004162E1 /* SMARTBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMARTBaseTableViewController.h; sourceTree = "<group>"; };
+		2A248FD51BCFF442004162E1 /* SMARTBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMARTBaseTableViewController.m; sourceTree = "<group>"; };
+		2A248FD61BCFF442004162E1 /* SMARTCommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMARTCommentViewController.h; sourceTree = "<group>"; };
+		2A248FD71BCFF442004162E1 /* SMARTCommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMARTCommentViewController.m; sourceTree = "<group>"; };
+		2A248FD81BCFF442004162E1 /* SMARTEssenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMARTEssenceController.h; sourceTree = "<group>"; };
+		2A248FD91BCFF442004162E1 /* SMARTEssenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMARTEssenceController.m; sourceTree = "<group>"; };
+		2A248FDA1BCFF442004162E1 /* SMARTEssenceController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMARTEssenceController.xib; sourceTree = "<group>"; };
+		2A248FDB1BCFF442004162E1 /* SMARTFriendCircleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMARTFriendCircleController.h; sourceTree = "<group>"; };
+		2A248FDC1BCFF442004162E1 /* SMARTFriendCircleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMARTFriendCircleController.m; sourceTree = "<group>"; };
+		2A248FDD1BCFF442004162E1 /* SMARTFriendCircleController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMARTFriendCircleController.xib; sourceTree = "<group>"; };
+		2A248FDE1BCFF442004162E1 /* SMARTMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMARTMainViewController.h; sourceTree = "<group>"; };
+		2A248FDF1BCFF442004162E1 /* SMARTMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMARTMainViewController.m; sourceTree = "<group>"; };
+		2A248FE01BCFF442004162E1 /* SMARTPictureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMARTPictureController.h; sourceTree = "<group>"; };
+		2A248FE11BCFF442004162E1 /* SMARTPictureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMARTPictureController.m; sourceTree = "<group>"; };
+		2A248FE21BCFF442004162E1 /* SMARTRecommentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMARTRecommentController.h; sourceTree = "<group>"; };
+		2A248FE31BCFF442004162E1 /* SMARTRecommentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMARTRecommentController.m; sourceTree = "<group>"; };
+		2A248FE41BCFF442004162E1 /* SMARTSameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMARTSameController.h; sourceTree = "<group>"; };
+		2A248FE51BCFF442004162E1 /* SMARTSameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMARTSameController.m; sourceTree = "<group>"; };
+		2A248FE61BCFF442004162E1 /* SMARTSameController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMARTSameController.xib; sourceTree = "<group>"; };
+		2A248FE71BCFF442004162E1 /* SMARTSubscribeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMARTSubscribeController.h; sourceTree = "<group>"; };
+		2A248FE81BCFF442004162E1 /* SMARTSubscribeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMARTSubscribeController.m; sourceTree = "<group>"; };
+		2A248FE91BCFF442004162E1 /* SMARTSubscribeController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMARTSubscribeController.xib; sourceTree = "<group>"; };
+		2A248FEA1BCFF442004162E1 /* SMARTVideoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMARTVideoController.h; sourceTree = "<group>"; };
+		2A248FEB1BCFF442004162E1 /* SMARTVideoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMARTVideoController.m; sourceTree = "<group>"; };
+		2A248FEC1BCFF442004162E1 /* SMARTWordController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMARTWordController.h; sourceTree = "<group>"; };
+		2A248FED1BCFF442004162E1 /* SMARTWordController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMARTWordController.m; sourceTree = "<group>"; };
+		2A248FEF1BCFF442004162E1 /* SMARTCommentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMARTCommentModel.h; sourceTree = "<group>"; };
+		2A248FF01BCFF442004162E1 /* SMARTCommentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMARTCommentModel.m; sourceTree = "<group>"; };
+		2A248FF11BCFF442004162E1 /* SMARTGroupModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMARTGroupModel.h; sourceTree = "<group>"; };
+		2A248FF21BCFF442004162E1 /* SMARTGroupModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMARTGroupModel.m; sourceTree = "<group>"; };
+		2A248FF31BCFF442004162E1 /* SMARTGroupUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMARTGroupUser.h; sourceTree = "<group>"; };
+		2A248FF41BCFF442004162E1 /* SMARTGroupUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMARTGroupUser.m; sourceTree = "<group>"; };
+		2A248FF51BCFF442004162E1 /* SMARTLargeImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMARTLargeImage.h; sourceTree = "<group>"; };
+		2A248FF61BCFF442004162E1 /* SMARTLargeImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMARTLargeImage.m; sourceTree = "<group>"; };
+		2A248FF71BCFF442004162E1 /* SMARTMiddleImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMARTMiddleImage.h; sourceTree = "<group>"; };
+		2A248FF81BCFF442004162E1 /* SMARTMiddleImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMARTMiddleImage.m; sourceTree = "<group>"; };
+		2A248FF91BCFF442004162E1 /* SMARTNavBarTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMARTNavBarTitleView.h; sourceTree = "<group>"; };
+		2A248FFA1BCFF442004162E1 /* SMARTNavBarTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMARTNavBarTitleView.m; sourceTree = "<group>"; };
+		2A248FFB1BCFF442004162E1 /* SMARTTopicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMARTTopicModel.h; sourceTree = "<group>"; };
+		2A248FFC1BCFF442004162E1 /* SMARTTopicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMARTTopicModel.m; sourceTree = "<group>"; };
+		2A248FFE1BCFF442004162E1 /* SMARTCommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMARTCommentCell.h; sourceTree = "<group>"; };
+		2A248FFF1BCFF442004162E1 /* SMARTCommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMARTCommentCell.m; sourceTree = "<group>"; };
+		2A2490001BCFF442004162E1 /* SMARTCommentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMARTCommentCell.xib; sourceTree = "<group>"; };
+		2A2490011BCFF442004162E1 /* SMARTCommentCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMARTCommentCollectionViewCell.h; sourceTree = "<group>"; };
+		2A2490021BCFF442004162E1 /* SMARTCommentCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMARTCommentCollectionViewCell.m; sourceTree = "<group>"; };
+		2A2490031BCFF442004162E1 /* SMARTCommentCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMARTCommentCollectionViewCell.xib; sourceTree = "<group>"; };
+		2A2490041BCFF442004162E1 /* SMARTHotCommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMARTHotCommentCell.h; sourceTree = "<group>"; };
+		2A2490051BCFF442004162E1 /* SMARTHotCommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMARTHotCommentCell.m; sourceTree = "<group>"; };
+		2A2490061BCFF442004162E1 /* SMARTHotCommentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMARTHotCommentCell.xib; sourceTree = "<group>"; };
+		2A2490071BCFF442004162E1 /* SMARTPicturePartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMARTPicturePartView.h; sourceTree = "<group>"; };
+		2A2490081BCFF442004162E1 /* SMARTPicturePartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMARTPicturePartView.m; sourceTree = "<group>"; };
+		2A2490091BCFF442004162E1 /* SMARTPicturePartView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMARTPicturePartView.xib; sourceTree = "<group>"; };
+		2A24900A1BCFF442004162E1 /* SMARTTopicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMARTTopicCell.h; sourceTree = "<group>"; };
+		2A24900B1BCFF442004162E1 /* SMARTTopicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMARTTopicCell.m; sourceTree = "<group>"; };
+		2A24900C1BCFF442004162E1 /* SMARTTopicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMARTTopicCell.xib; sourceTree = "<group>"; };
+		2A24900D1BCFF442004162E1 /* SMARTVideoPartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMARTVideoPartView.h; sourceTree = "<group>"; };
+		2A24900E1BCFF442004162E1 /* SMARTVideoPartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMARTVideoPartView.m; sourceTree = "<group>"; };
+		2A24900F1BCFF442004162E1 /* SMARTVideoPartView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMARTVideoPartView.xib; sourceTree = "<group>"; };
+		2A2490101BCFF442004162E1 /* hotPage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = hotPage.bundle; sourceTree = "<group>"; };
+		2A2490111BCFF442004162E1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2A2490121BCFF442004162E1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2ADEA7A01BAD6EE700760496 /* EasyJoke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyJoke.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ADEA7B91BAD6EE700760496 /* EasyJokeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyJokeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F96B282A1ABDD6D2FCAD289 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		99763D8875B24E05C855BA59 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		DDE6ABEA0187FADBD17FC6A7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2ADEA79D1BAD6EE700760496 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A0E36B8FA9D80B6BA3D1761 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ADEA7B61BAD6EE700760496 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A248F731BCFF442004162E1 /* EasyJoke */ = {
+			isa = PBXGroup;
+			children = (
+				2A248F741BCFF442004162E1 /* Classes */,
+				2A2490101BCFF442004162E1 /* hotPage.bundle */,
+				2A2490111BCFF442004162E1 /* Images.xcassets */,
+				2A2490121BCFF442004162E1 /* Info.plist */,
+			);
+			path = EasyJoke;
+			sourceTree = "<group>";
+		};
+		2A248F741BCFF442004162E1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2A248F751BCFF442004162E1 /* Other */,
+				2A248F8A1BCFF442004162E1 /* 发现 - Found */,
+				2A248F951BCFF442004162E1 /* 基本框架TabbleBar */,
+				2A248F9D1BCFF442004162E1 /* 审核 - check */,
+				2A248FA41BCFF442004162E1 /* 新特性界面-Feture */,
+				2A248FB31BCFF442004162E1 /* 消息 - massage */,
+				2A248FBA1BCFF442004162E1 /* 用户中心 */,
+				2A248FD21BCFF442004162E1 /* 首页-Main */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2A248F751BCFF442004162E1 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				2A248F761BCFF442004162E1 /* AppDelegate.h */,
+				2A248F771BCFF442004162E1 /* AppDelegate.m */,
+				2A248F781BCFF442004162E1 /* main.m */,
+				2A248F791BCFF442004162E1 /* MJExtensionConfig.h */,
+				2A248F7A1BCFF442004162E1 /* MJExtensionConfig.m */,
+				2A248F7B1BCFF442004162E1 /* PrefixHeader.pch */,
+				2A248F7C1BCFF442004162E1 /* SMARTConstList.h */,
+				2A248F7D1BCFF442004162E1 /* SMARTConstList.m */,
+				2A248F7E1BCFF442004162E1 /* UIBarButtonItem+XMGExtension */,
+				2A248F811BCFF442004162E1 /* UIImageView+ Shape */,
+				2A248F841BCFF442004162E1 /* UIView+XMGExtension */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		2A248F7E1BCFF442004162E1 /* UIBarButtonItem+XMGExtension */ = {
+			isa = PBXGroup;
+			children = (
+				2A248F7F1BCFF442004162E1 /* UIBarButtonItem+SMARTExtension.h */,
+				2A248F801BCFF442004162E1 /* UIBarButtonItem+SMARTExtension.m */,
+			);
+			path = "UIBarButtonItem+XMGExtension";
+			sourceTree = "<group>";
+		};
+		2A248F811BCFF442004162E1 /* UIImageView+ Shape */ = {
+			isa = PBXGroup;
+			children = (
+				2A248F821BCFF442004162E1 /* UIImageView+SMARTExtension.h */,
+				2A248F831BCFF442004162E1 /* UIImageView+SMARTExtension.m */,
+			);
+			path = "UIImageView+ Shape";
+			sourceTree = "<group>";
+		};
+		2A248F841BCFF442004162E1 /* UIView+XMGExtension */ = {
+			isa = PBXGroup;
+			children = (
+				2A248F851BCFF442004162E1 /* UIImage+Image */,
+				2A248F881BCFF442004162E1 /* UIView+SMARTExtension.h */,
+				2A248F891BCFF442004162E1 /* UIView+SMARTExtension.m */,
+			);
+			path = "UIView+XMGExtension";
+			sourceTree = "<group>";
+		};
+		2A248F851BCFF442004162E1 /* UIImage+Image */ = {
+			isa = PBXGroup;
+			children = (
+				2A248F861BCFF442004162E1 /* UIImage+Image.h */,
+				2A248F871BCFF442004162E1 /* UIImage+Image.m */,
+			);
+			path = "UIImage+Image";
+			sourceTree = "<group>";
+		};
+		2A248F8A1BCFF442004162E1 /* 发现 - Found */ = {
+			isa = PBXGroup;
+			children = (
+				2A248F8B1BCFF442004162E1 /* Controller */,
+				2A248F931BCFF442004162E1 /* Model */,
+				2A248F941BCFF442004162E1 /* View */,
+			);
+			path = "发现 - Found";
+			sourceTree = "<group>";
+		};
+		2A248F8B1BCFF442004162E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2A248F8C1BCFF442004162E1 /* SMARTFindViewController.h */,
+				2A248F8D1BCFF442004162E1 /* SMARTFindViewController.m */,
+				2A248F8E1BCFF442004162E1 /* SMARTHotBarController.h */,
+				2A248F8F1BCFF442004162E1 /* SMARTHotBarController.m */,
+				2A248F901BCFF442004162E1 /* SMARTNearbyFriendsController.h */,
+				2A248F911BCFF442004162E1 /* SMARTNearbyFriendsController.m */,
+				2A248F921BCFF442004162E1 /* SMARTNearbyFriendsController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2A248F931BCFF442004162E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2A248F941BCFF442004162E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2A248F951BCFF442004162E1 /* 基本框架TabbleBar */ = {
+			isa = PBXGroup;
+			children = (
+				2A248F961BCFF442004162E1 /* Controller */,
+				2A248F9B1BCFF442004162E1 /* Model */,
+				2A248F9C1BCFF442004162E1 /* View */,
+			);
+			path = "基本框架TabbleBar";
+			sourceTree = "<group>";
+		};
+		2A248F961BCFF442004162E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2A248F971BCFF442004162E1 /* SMARTNavagationViewController.h */,
+				2A248F981BCFF442004162E1 /* SMARTNavagationViewController.m */,
+				2A248F991BCFF442004162E1 /* SMARTTabBarController.h */,
+				2A248F9A1BCFF442004162E1 /* SMARTTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2A248F9B1BCFF442004162E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2A248F9C1BCFF442004162E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2A248F9D1BCFF442004162E1 /* 审核 - check */ = {
+			isa = PBXGroup;
+			children = (
+				2A248F9E1BCFF442004162E1 /* Controller */,
+				2A248FA21BCFF442004162E1 /* Model */,
+				2A248FA31BCFF442004162E1 /* View */,
+			);
+			path = "审核 - check";
+			sourceTree = "<group>";
+		};
+		2A248F9E1BCFF442004162E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2A248F9F1BCFF442004162E1 /* SMARTCheckViewController.h */,
+				2A248FA01BCFF442004162E1 /* SMARTCheckViewController.m */,
+				2A248FA11BCFF442004162E1 /* SMARTCheckViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2A248FA21BCFF442004162E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2A248FA31BCFF442004162E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2A248FA41BCFF442004162E1 /* 新特性界面-Feture */ = {
+			isa = PBXGroup;
+			children = (
+				2A248FA51BCFF442004162E1 /* Controller */,
+				2A248FA81BCFF442004162E1 /* Model */,
+				2A248FA91BCFF442004162E1 /* Tool */,
+				2A248FB01BCFF442004162E1 /* View */,
+			);
+			path = "新特性界面-Feture";
+			sourceTree = "<group>";
+		};
+		2A248FA51BCFF442004162E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2A248FA61BCFF442004162E1 /* SMARTNewFeatureController.h */,
+				2A248FA71BCFF442004162E1 /* SMARTNewFeatureController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2A248FA81BCFF442004162E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2A248FA91BCFF442004162E1 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				2A248FAA1BCFF442004162E1 /* RootTool(根控制器) */,
+				2A248FAD1BCFF442004162E1 /* SaveTool(存储) */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		2A248FAA1BCFF442004162E1 /* RootTool(根控制器) */ = {
+			isa = PBXGroup;
+			children = (
+				2A248FAB1BCFF442004162E1 /* SMARTRootTool.h */,
+				2A248FAC1BCFF442004162E1 /* SMARTRootTool.m */,
+			);
+			path = "RootTool(根控制器)";
+			sourceTree = "<group>";
+		};
+		2A248FAD1BCFF442004162E1 /* SaveTool(存储) */ = {
+			isa = PBXGroup;
+			children = (
+				2A248FAE1BCFF442004162E1 /* SMARTSaveTool.h */,
+				2A248FAF1BCFF442004162E1 /* SMARTSaveTool.m */,
+			);
+			path = "SaveTool(存储)";
+			sourceTree = "<group>";
+		};
+		2A248FB01BCFF442004162E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2A248FB11BCFF442004162E1 /* SMARTNewfFeatureCell.h */,
+				2A248FB21BCFF442004162E1 /* SMARTNewfFeatureCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2A248FB31BCFF442004162E1 /* 消息 - massage */ = {
+			isa = PBXGroup;
+			children = (
+				2A248FB41BCFF442004162E1 /* Controller */,
+				2A248FB81BCFF442004162E1 /* Model */,
+				2A248FB91BCFF442004162E1 /* View */,
+			);
+			path = "消息 - massage";
+			sourceTree = "<group>";
+		};
+		2A248FB41BCFF442004162E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2A248FB51BCFF442004162E1 /* SMARTMassageViewController.h */,
+				2A248FB61BCFF442004162E1 /* SMARTMassageViewController.m */,
+				2A248FB71BCFF442004162E1 /* SMARTMassageViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2A248FB81BCFF442004162E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2A248FB91BCFF442004162E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2A248FBA1BCFF442004162E1 /* 用户中心 */ = {
+			isa = PBXGroup;
+			children = (
+				2A248FBB1BCFF442004162E1 /* Personal Center */,
+				2A248FBF1BCFF442004162E1 /* SMARTProtocolViewController.h */,
+				2A248FC01BCFF442004162E1 /* SMARTProtocolViewController.m */,
+				2A248FC11BCFF442004162E1 /* SMARTProtocolViewController.xib */,
+				2A248FC21BCFF442004162E1 /* 登陆 */,
+				2A248FCB1BCFF442004162E1 /* 设置 */,
+			);
+			path = "用户中心";
+			sourceTree = "<group>";
+		};
+		2A248FBB1BCFF442004162E1 /* Personal Center */ = {
+			isa = PBXGroup;
+			children = (
+				2A248FBC1BCFF442004162E1 /* SMARTLoginViewController.h */,
+				2A248FBD1BCFF442004162E1 /* SMARTLoginViewController.m */,
+				2A248FBE1BCFF442004162E1 /* SMARTLoginViewController.xib */,
+			);
+			path = "Personal Center";
+			sourceTree = "<group>";
+		};
+		2A248FC21BCFF442004162E1 /* 登陆 */ = {
+			isa = PBXGroup;
+			children = (
+				2A248FC31BCFF442004162E1 /* Controller */,
+				2A248FC71BCFF442004162E1 /* Model */,
+				2A248FC81BCFF442004162E1 /* View */,
+			);
+			path = "登陆";
+			sourceTree = "<group>";
+		};
+		2A248FC31BCFF442004162E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2A248FC41BCFF442004162E1 /* SMARTQuicklyLoginController.h */,
+				2A248FC51BCFF442004162E1 /* SMARTQuicklyLoginController.m */,
+				2A248FC61BCFF442004162E1 /* SMARTQuicklyLoginController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2A248FC71BCFF442004162E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2A248FC81BCFF442004162E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2A248FC91BCFF442004162E1 /* SMARTLoginButton.h */,
+				2A248FCA1BCFF442004162E1 /* SMARTLoginButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2A248FCB1BCFF442004162E1 /* 设置 */ = {
+			isa = PBXGroup;
+			children = (
+				2A248FCC1BCFF442004162E1 /* Controller */,
+				2A248FD01BCFF442004162E1 /* Model */,
+				2A248FD11BCFF442004162E1 /* View */,
+			);
+			path = "设置";
+			sourceTree = "<group>";
+		};
+		2A248FCC1BCFF442004162E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2A248FCD1BCFF442004162E1 /* SMARTSetUpController.h */,
+				2A248FCE1BCFF442004162E1 /* SMARTSetUpController.m */,
+				2A248FCF1BCFF442004162E1 /* SMARTSetUpController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2A248FD01BCFF442004162E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2A248FD11BCFF442004162E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2A248FD21BCFF442004162E1 /* 首页-Main */ = {
+			isa = PBXGroup;
+			children = (
+				2A248FD31BCFF442004162E1 /* Controller */,
+				2A248FEE1BCFF442004162E1 /* Model */,
+				2A248FFD1BCFF442004162E1 /* View */,
+			);
+			path = "首页-Main";
+			sourceTree = "<group>";
+		};
+		2A248FD31BCFF442004162E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2A248FD41BCFF442004162E1 /* SMARTBaseTableViewController.h */,
+				2A248FD51BCFF442004162E1 /* SMARTBaseTableViewController.m */,
+				2A248FD61BCFF442004162E1 /* SMARTCommentViewController.h */,
+				2A248FD71BCFF442004162E1 /* SMARTCommentViewController.m */,
+				2A248FD81BCFF442004162E1 /* SMARTEssenceController.h */,
+				2A248FD91BCFF442004162E1 /* SMARTEssenceController.m */,
+				2A248FDA1BCFF442004162E1 /* SMARTEssenceController.xib */,
+				2A248FDB1BCFF442004162E1 /* SMARTFriendCircleController.h */,
+				2A248FDC1BCFF442004162E1 /* SMARTFriendCircleController.m */,
+				2A248FDD1BCFF442004162E1 /* SMARTFriendCircleController.xib */,
+				2A248FDE1BCFF442004162E1 /* SMARTMainViewController.h */,
+				2A248FDF1BCFF442004162E1 /* SMARTMainViewController.m */,
+				2A248FE01BCFF442004162E1 /* SMARTPictureController.h */,
+				2A248FE11BCFF442004162E1 /* SMARTPictureController.m */,
+				2A248FE21BCFF442004162E1 /* SMARTRecommentController.h */,
+				2A248FE31BCFF442004162E1 /* SMARTRecommentController.m */,
+				2A248FE41BCFF442004162E1 /* SMARTSameController.h */,
+				2A248FE51BCFF442004162E1 /* SMARTSameController.m */,
+				2A248FE61BCFF442004162E1 /* SMARTSameController.xib */,
+				2A248FE71BCFF442004162E1 /* SMARTSubscribeController.h */,
+				2A248FE81BCFF442004162E1 /* SMARTSubscribeController.m */,
+				2A248FE91BCFF442004162E1 /* SMARTSubscribeController.xib */,
+				2A248FEA1BCFF442004162E1 /* SMARTVideoController.h */,
+				2A248FEB1BCFF442004162E1 /* SMARTVideoController.m */,
+				2A248FEC1BCFF442004162E1 /* SMARTWordController.h */,
+				2A248FED1BCFF442004162E1 /* SMARTWordController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2A248FEE1BCFF442004162E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2A248FEF1BCFF442004162E1 /* SMARTCommentModel.h */,
+				2A248FF01BCFF442004162E1 /* SMARTCommentModel.m */,
+				2A248FF11BCFF442004162E1 /* SMARTGroupModel.h */,
+				2A248FF21BCFF442004162E1 /* SMARTGroupModel.m */,
+				2A248FF31BCFF442004162E1 /* SMARTGroupUser.h */,
+				2A248FF41BCFF442004162E1 /* SMARTGroupUser.m */,
+				2A248FF51BCFF442004162E1 /* SMARTLargeImage.h */,
+				2A248FF61BCFF442004162E1 /* SMARTLargeImage.m */,
+				2A248FF71BCFF442004162E1 /* SMARTMiddleImage.h */,
+				2A248FF81BCFF442004162E1 /* SMARTMiddleImage.m */,
+				2A248FF91BCFF442004162E1 /* SMARTNavBarTitleView.h */,
+				2A248FFA1BCFF442004162E1 /* SMARTNavBarTitleView.m */,
+				2A248FFB1BCFF442004162E1 /* SMARTTopicModel.h */,
+				2A248FFC1BCFF442004162E1 /* SMARTTopicModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2A248FFD1BCFF442004162E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2A248FFE1BCFF442004162E1 /* SMARTCommentCell.h */,
+				2A248FFF1BCFF442004162E1 /* SMARTCommentCell.m */,
+				2A2490001BCFF442004162E1 /* SMARTCommentCell.xib */,
+				2A2490011BCFF442004162E1 /* SMARTCommentCollectionViewCell.h */,
+				2A2490021BCFF442004162E1 /* SMARTCommentCollectionViewCell.m */,
+				2A2490031BCFF442004162E1 /* SMARTCommentCollectionViewCell.xib */,
+				2A2490041BCFF442004162E1 /* SMARTHotCommentCell.h */,
+				2A2490051BCFF442004162E1 /* SMARTHotCommentCell.m */,
+				2A2490061BCFF442004162E1 /* SMARTHotCommentCell.xib */,
+				2A2490071BCFF442004162E1 /* SMARTPicturePartView.h */,
+				2A2490081BCFF442004162E1 /* SMARTPicturePartView.m */,
+				2A2490091BCFF442004162E1 /* SMARTPicturePartView.xib */,
+				2A24900A1BCFF442004162E1 /* SMARTTopicCell.h */,
+				2A24900B1BCFF442004162E1 /* SMARTTopicCell.m */,
+				2A24900C1BCFF442004162E1 /* SMARTTopicCell.xib */,
+				2A24900D1BCFF442004162E1 /* SMARTVideoPartView.h */,
+				2A24900E1BCFF442004162E1 /* SMARTVideoPartView.m */,
+				2A24900F1BCFF442004162E1 /* SMARTVideoPartView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2ADEA7971BAD6EE700760496 = {
+			isa = PBXGroup;
+			children = (
+				2A248F731BCFF442004162E1 /* EasyJoke */,
+				2ADEA7A11BAD6EE700760496 /* Products */,
+				52815AA98CD62E8C4A12013D /* Pods */,
+				C4D790F9499FBE9087541E30 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2ADEA7A11BAD6EE700760496 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2ADEA7A01BAD6EE700760496 /* EasyJoke.app */,
+				2ADEA7B91BAD6EE700760496 /* EasyJokeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52815AA98CD62E8C4A12013D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99763D8875B24E05C855BA59 /* Pods.debug.xcconfig */,
+				DDE6ABEA0187FADBD17FC6A7 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C4D790F9499FBE9087541E30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F96B282A1ABDD6D2FCAD289 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2ADEA79F1BAD6EE700760496 /* EasyJoke */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2ADEA7C31BAD6EE700760496 /* Build configuration list for PBXNativeTarget "EasyJoke" */;
+			buildPhases = (
+				41C9EAA265385B57C9024B76 /* Check Pods Manifest.lock */,
+				2ADEA79C1BAD6EE700760496 /* Sources */,
+				2ADEA79D1BAD6EE700760496 /* Frameworks */,
+				2ADEA79E1BAD6EE700760496 /* Resources */,
+				EFA22113DDA9929B239EAAF2 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyJoke;
+			productName = Essay.Joke;
+			productReference = 2ADEA7A01BAD6EE700760496 /* EasyJoke.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2ADEA7B81BAD6EE700760496 /* EasyJokeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2ADEA7C61BAD6EE700760496 /* Build configuration list for PBXNativeTarget "EasyJokeTests" */;
+			buildPhases = (
+				2ADEA7B51BAD6EE700760496 /* Sources */,
+				2ADEA7B61BAD6EE700760496 /* Frameworks */,
+				2ADEA7B71BAD6EE700760496 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2ADEA7BB1BAD6EE700760496 /* PBXTargetDependency */,
+			);
+			name = EasyJokeTests;
+			productName = Essay.JokeTests;
+			productReference = 2ADEA7B91BAD6EE700760496 /* EasyJokeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2ADEA7981BAD6EE700760496 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SMART;
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = SMART;
+				TargetAttributes = {
+					2ADEA79F1BAD6EE700760496 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					2ADEA7B81BAD6EE700760496 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 2ADEA79F1BAD6EE700760496;
+					};
+				};
+			};
+			buildConfigurationList = 2ADEA79B1BAD6EE700760496 /* Build configuration list for PBXProject "EasyJoke" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2ADEA7971BAD6EE700760496;
+			productRefGroup = 2ADEA7A11BAD6EE700760496 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2ADEA79F1BAD6EE700760496 /* EasyJoke */,
+				2ADEA7B81BAD6EE700760496 /* EasyJokeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2ADEA79E1BAD6EE700760496 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A24904D1BCFF442004162E1 /* SMARTHotCommentCell.xib in Resources */,
+				2A2490551BCFF442004162E1 /* Images.xcassets in Resources */,
+				2A24902C1BCFF442004162E1 /* SMARTProtocolViewController.xib in Resources */,
+				2A2490221BCFF442004162E1 /* SMARTCheckViewController.xib in Resources */,
+				2A24902A1BCFF442004162E1 /* SMARTLoginViewController.xib in Resources */,
+				2A24902E1BCFF442004162E1 /* SMARTQuicklyLoginController.xib in Resources */,
+				2A2490531BCFF442004162E1 /* SMARTVideoPartView.xib in Resources */,
+				2A2490541BCFF442004162E1 /* hotPage.bundle in Resources */,
+				2A24901E1BCFF442004162E1 /* SMARTNearbyFriendsController.xib in Resources */,
+				2A2490371BCFF442004162E1 /* SMARTFriendCircleController.xib in Resources */,
+				2A24904B1BCFF442004162E1 /* SMARTCommentCollectionViewCell.xib in Resources */,
+				2A2490491BCFF442004162E1 /* SMARTCommentCell.xib in Resources */,
+				2A24903E1BCFF442004162E1 /* SMARTSubscribeController.xib in Resources */,
+				2A2490311BCFF442004162E1 /* SMARTSetUpController.xib in Resources */,
+				2A24903C1BCFF442004162E1 /* SMARTSameController.xib in Resources */,
+				2A2490511BCFF442004162E1 /* SMARTTopicCell.xib in Resources */,
+				2A2490281BCFF442004162E1 /* SMARTMassageViewController.xib in Resources */,
+				2A2490351BCFF442004162E1 /* SMARTEssenceController.xib in Resources */,
+				2A24904F1BCFF442004162E1 /* SMARTPicturePartView.xib in Resources */,
+				2A2490561BCFF442004162E1 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ADEA7B71BAD6EE700760496 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		41C9EAA265385B57C9024B76 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EFA22113DDA9929B239EAAF2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2ADEA79C1BAD6EE700760496 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A2490321BCFF442004162E1 /* SMARTBaseTableViewController.m in Sources */,
+				2A2490501BCFF442004162E1 /* SMARTTopicCell.m in Sources */,
+				2A2490431BCFF442004162E1 /* SMARTGroupUser.m in Sources */,
+				2A24904E1BCFF442004162E1 /* SMARTPicturePartView.m in Sources */,
+				2A2490331BCFF442004162E1 /* SMARTCommentViewController.m in Sources */,
+				2A24901D1BCFF442004162E1 /* SMARTNearbyFriendsController.m in Sources */,
+				2A24902F1BCFF442004162E1 /* SMARTLoginButton.m in Sources */,
+				2A2490461BCFF442004162E1 /* SMARTNavBarTitleView.m in Sources */,
+				2A2490171BCFF442004162E1 /* UIBarButtonItem+SMARTExtension.m in Sources */,
+				2A24902B1BCFF442004162E1 /* SMARTProtocolViewController.m in Sources */,
+				2A2490361BCFF442004162E1 /* SMARTFriendCircleController.m in Sources */,
+				2A2490521BCFF442004162E1 /* SMARTVideoPartView.m in Sources */,
+				2A24901F1BCFF442004162E1 /* SMARTNavagationViewController.m in Sources */,
+				2A24901C1BCFF442004162E1 /* SMARTHotBarController.m in Sources */,
+				2A2490381BCFF442004162E1 /* SMARTMainViewController.m in Sources */,
+				2A24903D1BCFF442004162E1 /* SMARTSubscribeController.m in Sources */,
+				2A2490411BCFF442004162E1 /* SMARTCommentModel.m in Sources */,
+				2A24903A1BCFF442004162E1 /* SMARTRecommentController.m in Sources */,
+				2A2490341BCFF442004162E1 /* SMARTEssenceController.m in Sources */,
+				2A2490251BCFF442004162E1 /* SMARTSaveTool.m in Sources */,
+				2A24901B1BCFF442004162E1 /* SMARTFindViewController.m in Sources */,
+				2A2490261BCFF442004162E1 /* SMARTNewfFeatureCell.m in Sources */,
+				2A24904C1BCFF442004162E1 /* SMARTHotCommentCell.m in Sources */,
+				2A2490301BCFF442004162E1 /* SMARTSetUpController.m in Sources */,
+				2A24904A1BCFF442004162E1 /* SMARTCommentCollectionViewCell.m in Sources */,
+				2A2490191BCFF442004162E1 /* UIImage+Image.m in Sources */,
+				2A2490161BCFF442004162E1 /* SMARTConstList.m in Sources */,
+				2A2490231BCFF442004162E1 /* SMARTNewFeatureController.m in Sources */,
+				2A2490421BCFF442004162E1 /* SMARTGroupModel.m in Sources */,
+				2A2490151BCFF442004162E1 /* MJExtensionConfig.m in Sources */,
+				2A2490131BCFF442004162E1 /* AppDelegate.m in Sources */,
+				2A2490201BCFF442004162E1 /* SMARTTabBarController.m in Sources */,
+				2A2490241BCFF442004162E1 /* SMARTRootTool.m in Sources */,
+				2A2490391BCFF442004162E1 /* SMARTPictureController.m in Sources */,
+				2A2490211BCFF442004162E1 /* SMARTCheckViewController.m in Sources */,
+				2A2490291BCFF442004162E1 /* SMARTLoginViewController.m in Sources */,
+				2A24903F1BCFF442004162E1 /* SMARTVideoController.m in Sources */,
+				2A2490451BCFF442004162E1 /* SMARTMiddleImage.m in Sources */,
+				2A24901A1BCFF442004162E1 /* UIView+SMARTExtension.m in Sources */,
+				2A2490471BCFF442004162E1 /* SMARTTopicModel.m in Sources */,
+				2A24902D1BCFF442004162E1 /* SMARTQuicklyLoginController.m in Sources */,
+				2A2490441BCFF442004162E1 /* SMARTLargeImage.m in Sources */,
+				2A2490141BCFF442004162E1 /* main.m in Sources */,
+				2A2490401BCFF442004162E1 /* SMARTWordController.m in Sources */,
+				2A2490481BCFF442004162E1 /* SMARTCommentCell.m in Sources */,
+				2A2490181BCFF442004162E1 /* UIImageView+SMARTExtension.m in Sources */,
+				2A24903B1BCFF442004162E1 /* SMARTSameController.m in Sources */,
+				2A2490271BCFF442004162E1 /* SMARTMassageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ADEA7B51BAD6EE700760496 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2ADEA7BB1BAD6EE700760496 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2ADEA79F1BAD6EE700760496 /* EasyJoke */;
+			targetProxy = 2ADEA7BA1BAD6EE700760496 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2ADEA7C11BAD6EE700760496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2ADEA7C21BAD6EE700760496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2ADEA7C41BAD6EE700760496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99763D8875B24E05C855BA59 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = EasyJoke/Classes/Other/PrefixHeader.pch;
+				INFOPLIST_FILE = EasyJoke/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = EasyJoke;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2ADEA7C51BAD6EE700760496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDE6ABEA0187FADBD17FC6A7 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = EasyJoke/Classes/Other/PrefixHeader.pch;
+				INFOPLIST_FILE = EasyJoke/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = EasyJoke;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		2ADEA7C71BAD6EE700760496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = EasyJoke.app/EasyJoke;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREFIX_HEADER = EasyJoke/Classes/Other/PrefixHeader.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EasyJokeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = EasyJokeTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyJoke.app/EasyJoke";
+			};
+			name = Debug;
+		};
+		2ADEA7C81BAD6EE700760496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = EasyJoke.app/EasyJoke;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREFIX_HEADER = EasyJoke/Classes/Other/PrefixHeader.pch;
+				INFOPLIST_FILE = EasyJokeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = EasyJokeTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyJoke.app/EasyJoke";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2ADEA79B1BAD6EE700760496 /* Build configuration list for PBXProject "EasyJoke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ADEA7C11BAD6EE700760496 /* Debug */,
+				2ADEA7C21BAD6EE700760496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2ADEA7C31BAD6EE700760496 /* Build configuration list for PBXNativeTarget "EasyJoke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ADEA7C41BAD6EE700760496 /* Debug */,
+				2ADEA7C51BAD6EE700760496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2ADEA7C61BAD6EE700760496 /* Build configuration list for PBXNativeTarget "EasyJokeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ADEA7C71BAD6EE700760496 /* Debug */,
+				2ADEA7C81BAD6EE700760496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2ADEA7981BAD6EE700760496 /* Project object */;
+}
